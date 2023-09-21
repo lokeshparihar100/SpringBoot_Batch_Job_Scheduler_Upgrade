@@ -1,0 +1,24 @@
+{
+  "groups": [
+    {
+      "name": "spring.datasource",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.springbatchnew.config.database.DatabaseConfig",
+      "sourceMethod": "public javax.sql.DataSource dataSource() "
+    },
+    {
+      "name": "spring.datasource.mysql",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.springbatchnew.config.database.DatabaseConfig",
+      "sourceMethod": "public javax.sql.DataSource mySqlDataSource() "
+    },
+    {
+      "name": "spring.datasource.pg",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.springbatchnew.config.database.DatabaseConfig",
+      "sourceMethod": "public javax.sql.DataSource postgresqlDataSource() "
+    }
+  ],
+  "properties": [],
+  "hints": []
+}
